@@ -38,5 +38,4 @@ make PREFIX=$DESTDIR install
 %doc ChangeLog INSTALL LICENSE AUTHORS README TODO changelog svn.log
 %{_libdir}/mindi
 
-
-
+%changelog
