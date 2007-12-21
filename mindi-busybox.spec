@@ -10,6 +10,7 @@ License:	GPL
 Group:		Archiving/Backup
 Url:		http://www.mondorescue.org
 Source:		ftp://ftp.mondorescue.org/src/%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
 Buildrequires: glibc-static-devel
 ExcludeArch:	ppc
 
