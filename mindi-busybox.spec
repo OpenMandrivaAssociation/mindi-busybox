@@ -3,9 +3,9 @@
 #
 Summary:	Busybox version suited for Mindi
 Name:		mindi-busybox
-Version:	1.2.2
+Version:	1.7.3
 Packager:	Bruno Cornec <bcornec@mandriva.org>
-Release:	%mkrel 3
+Release:	%mkrel 1
 License:	GPL
 Group:		Archiving/Backup
 Url:		http://www.mondorescue.org
@@ -28,14 +28,14 @@ make busybox
 %{__rm}  -rf $RPM_BUILD_ROOT
 
 DESTDIR=${RPM_BUILD_ROOT}%{_libdir}/mindi/rootfs
-make PREFIX=$DESTDIR install
+make CONFIG_PREFIX=$DESTDIR install
 
 %clean
 %{__rm} -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%doc ChangeLog INSTALL LICENSE AUTHORS README TODO changelog svn.log
+%doc ChangeLog INSTALL LICENSE AUTHORS README TODO NEWS
 %{_libdir}/mindi
 
 %changelog
