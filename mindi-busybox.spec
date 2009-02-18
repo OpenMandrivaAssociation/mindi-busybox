@@ -5,13 +5,13 @@ Summary:	Busybox version suited for Mindi
 Name:		mindi-busybox
 Version:	1.7.3
 Packager:	Bruno Cornec <bcornec@mandriva.org>
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		Archiving/Backup
 Url:		http://www.mondorescue.org
 Source:		ftp://ftp.mondorescue.org/src/%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
-Buildrequires: glibc-static-devel
+Buildrequires: gcc
 ExcludeArch:	ppc
 
 %description
