@@ -3,9 +3,9 @@
 #
 Summary:	Busybox version suited for Mindi
 Name:		mindi-busybox
-Version:	1.7.3
+Version:	1.18.3
 Packager:	Bruno Cornec <bcornec@mandriva.org>
-Release:	%mkrel 5
+Release:	%mkrel 1
 License:	GPL
 Group:		Archiving/Backup
 Url:		http://www.mondorescue.org
