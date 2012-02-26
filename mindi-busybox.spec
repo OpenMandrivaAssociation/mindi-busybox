@@ -3,7 +3,7 @@
 #
 Summary:	Busybox version suited for Mindi
 Name:		mindi-busybox
-Version:	1.18.3
+Version:	1.18.5
 Packager:	Bruno Cornec <bcornec@mandriva.org>
 Release:	%mkrel 1
 License:	GPL
