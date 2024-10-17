@@ -7,7 +7,7 @@ Version:	1.18.5
 Release:	3
 License:	GPLv2+
 Group:		Archiving/Backup
-Url:		http://www.mondorescue.org
+Url:		https://www.mondorescue.org
 Source0:	ftp://ftp.mondorescue.org/src/%{name}-%{version}.tar.gz
 
 %description
