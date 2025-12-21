@@ -10,6 +10,7 @@ Group:		Archiving/Backup
 Url:		https://www.mondorescue.org
 Source0:	ftp://ftp.mondorescue.org/src/%{name}-%{version}.tar.gz
 
+BuildRequires:	make
 %description
 This package provides a busybox version suited for Mindi.
 
